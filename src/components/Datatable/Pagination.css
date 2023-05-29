@@ -1,0 +1,96 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.pagination-item {
+  display: inline-block;
+  padding: 12px 12px;
+  width: 22px;
+  margin: 0;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+.dots {
+  font-size: 27px;
+}
+
+.dots:hover {
+  cursor: default;
+}
+
+.arrow {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.left {
+  transform: rotate(-90deg);
+}
+
+.right {
+  transform: rotate(90deg);
+}
+
+.selected {
+  color: var(--black);
+  border: 1px solid var(--black);
+  background-color: var(--selected-light-gray);
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.disabled .arrow {
+  color: var(--disabled-gray);
+}
+
+.disabled:hover {
+  background-color: transparent;
+  cursor: default;
+}
+
+input[type="number"] {
+  padding: 10px 5px;
+  margin: 8px 5px;
+  width: 60px;
+  outline: none;
+}
+
+input[type="number"]:focus {
+  border: 3px solid var(--dark-gray);
+}
+
+.smaller-screens {
+  display: none;
+}
+
+.bigger-screens {
+  display: block;
+}
+
+@media (max-width: 650px) {
+  .datatable-container .smaller-screens {
+    display: block;
+  }
+
+  .datatable-container .bigger-screens {
+    display: none;
+  }
+}
+
+@media (min-width: 651px) {
+  .datatable-container .smaller-screens {
+    display: none;
+  }
+
+  .datatable-container .bigger-screens {
+    display: block;
+  }
+}

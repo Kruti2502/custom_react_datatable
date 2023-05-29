@@ -1,0 +1,47 @@
+.table-header {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+th {
+  padding: 16px;
+}
+
+.table-header-cell-resizable {
+  border-bottom: 2px solid var(--light-gray);
+  border-right: 2px solid var(--light-gray);
+}
+
+.table-header-cell {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.table-header-data {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sort-icon {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  padding: 5px 10px;
+  margin: 0;
+  line-height: 1;
+  font-size: 15px;
+  color: black;
+  transition: transform 0.05s ease-out;
+}
+
+.sort-reverse {
+  transform: rotate(180deg);
+}
+
+.sort-icon-hide {
+  visibility: hidden;
+}

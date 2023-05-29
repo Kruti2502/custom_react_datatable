@@ -1,0 +1,17 @@
+td {
+  padding: 16px;
+}
+
+.table-body-cell-resizable {
+  border-right: 2px solid var(--light-gray);
+}
+
+.table-body-cell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.show-grid-lines {
+  border-bottom: 2px solid var(--light-gray);
+}

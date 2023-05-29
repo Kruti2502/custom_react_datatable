@@ -1,0 +1,23 @@
+.filter-input-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  margin: 0px 0 15px 15px;
+}
+
+input[type="text"] {
+  padding: 8px 15px;
+  font-size: 16px;
+  min-width: 300px;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 3px solid var(--dark-gray);
+}
+
+.reset-button {
+  padding: 8px 15px;
+  font-size: 16px;
+}
