@@ -1,4 +1,4 @@
-import React,{ useMemo, useState } from "react";
+import React, { useMemo, useState } from "react";
 import "./Datatable.css";
 import { ColumnType, HeaderCellType, RowType } from "./utilities/type";
 import useSortData from "./hooks/useSortData";

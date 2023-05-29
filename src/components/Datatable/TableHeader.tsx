@@ -1,4 +1,4 @@
-import React,{ Key } from "react";
+import React, { Key } from "react";
 import { ColumnType, SortKeysType, SortOrderType } from "./utilities/type";
 import "./TableHeader.css";
 

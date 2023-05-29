@@ -1,4 +1,4 @@
-import React,{ useMemo, useState } from "react";
+import React, { useMemo, useState } from "react";
 import { ColumnType, HeaderCellType, RowType } from "../utilities/type";
 
 function useFilterable<T>(
