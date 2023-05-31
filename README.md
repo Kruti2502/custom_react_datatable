@@ -19,7 +19,7 @@ A React Component to create a custom 'datatable'.
 ## Setup
 
 ```bash
-npm install custom-react-datatable
+npm i @kruti2502/custom-react-datatable
 ```
 
 # Props
